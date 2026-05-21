@@ -2,6 +2,7 @@ vim.pack.add({
     "https://github.com/nvim-treesitter/nvim-treesitter",
     "https://github.com/stevearc/conform.nvim",
     "https://github.com/benomahony/uv.nvim",
+    "https://github.com/mrcjkb/rustaceanvim",
 })
 
 vim.opt.shiftwidth = 4
@@ -54,6 +55,7 @@ require("conform").setup({
         toml = { "prettier" },
         jinja = { "prettier" },
         kdl = { "kdlfmt" },
+        rust = { "rustfmt" },
     },
     format_on_save = function(_bufnr)
         if vim.g.giga_format_on_save == false then

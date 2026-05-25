@@ -13,6 +13,7 @@ vim.api.nvim_create_autocmd("FileType", {
     pattern = {
         "css",
         "html",
+        "markdown",
         "javascript",
         "typescript",
         "javascriptreact",

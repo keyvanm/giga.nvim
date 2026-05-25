@@ -11,8 +11,13 @@ vim.opt.tabstop = 4
 -- Web/markup languages use 2-space indent.
 vim.api.nvim_create_autocmd("FileType", {
     pattern = {
+        "lua",
+        "yml",
         "css",
+        "sass",
+        "scss",
         "html",
+        "yaml",
         "markdown",
         "javascript",
         "typescript",

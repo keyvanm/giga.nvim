@@ -17,6 +17,7 @@ vim.api.nvim_create_autocmd("FileType", {
         "sass",
         "scss",
         "html",
+        "json",
         "yaml",
         "markdown",
         "javascript",
